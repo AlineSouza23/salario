@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name"> AppSalario - Feito por Aline e Gabriel</string>
+    <string name="title_activity_result">result</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="previous">Previous</string>
+    <string name="numeroDependentesString">Digite o número de dependentes, o campo está vazio!!</string>
+    <string name="salarioBrutoString">Digite o seu salário bruto, o campo está vazio!!</string>
+    <string name="planoString">Digite o seu plano de saúde, o campo está vazio!!</string>
+    <string name="planoStandard">Nenhum plano selecionado</string>
+    <string name="planoBasico">Nenhum plano selecionado</string>
+    <string name="planoMaster">Nenhum plano selecionado</string>
+    <string name="planoSuper">Nenhum plano selecionado</string>
+    <string name="ValeAlimentacao">Nenhum vale Alimentação não selecionado</string>
+    <string name="valeTransporte">Nenhum vale Transporte Selecionado</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="valeRefeicao">Nenhum Vale Refeição selecionado</string>
+</resources>

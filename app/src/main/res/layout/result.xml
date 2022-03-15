@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Calculo">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/salarioBrutoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salário Bruto"
+            android:fontFamily="cursive"
+            android:textSize="27dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/planoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Plano"
+            android:fontFamily="cursive"
+            android:textSize="27dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/valeAlimentacaoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vale Alimentacao"
+            android:fontFamily="cursive"
+            android:textSize="27dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/valeTransporteId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vale Transporte"
+            android:fontFamily="cursive"
+            android:textSize="27dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/valeRefeicaoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Vale Refeição"
+            android:fontFamily="cursive"
+            android:textSize="27dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/irrfId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Irrf"
+            android:fontFamily="cursive"
+            android:textSize="27dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/inssId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Inss"
+            android:fontFamily="cursive"
+            android:textSize="27dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+        <TextView
+            android:id="@+id/salarioLiquidoId"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Salário Líquido"
+            android:fontFamily="cursive"
+            android:textSize="27dp"
+            android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

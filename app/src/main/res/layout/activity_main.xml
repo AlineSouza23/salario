@@ -1,0 +1,243 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity"
+    android:background="@drawable/certo"
+    android:padding="50dp"
+
+    >
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="* Informe o seu salário Bruto:"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+      />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/salarioBruto"/>
+    <TextView
+        android:text="* Informe os dependentes:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/numeroDependentes"/>
+
+    <TextView
+        android:text="* Escolha seu plano de saúde:"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+
+        />
+
+        <RadioGroup
+            android:id="@+id/planos"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/planoStandard"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="10dp"
+                android:text="Standard"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/planoBasico"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="10dp"
+                android:text="Básico"
+                android:textSize="27dp"
+                android:textStyle="bold"
+
+                />
+
+            <RadioButton
+                android:id="@+id/planoSuper"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="10dp"
+                android:text="Super"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+
+            <RadioButton
+                android:id="@+id/planoMaster"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="cursive"
+                android:padding="10dp"
+                android:text="Master"
+                android:textSize="27dp"
+                android:textStyle="bold" />
+        </RadioGroup>
+
+        <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Possui vale Transporte?"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+
+
+        />
+
+    <RadioGroup
+        android:id="@+id/valeTransporte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RadioButton
+        android:id="@+id/valeTrasporteSim"
+        android:text="Possuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+/>
+    <RadioButton
+        android:id="@+id/valeTransporteNao"
+        android:text="Não possuo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Possue vale Alimentação?"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        />
+    <RadioGroup
+        android:id="@+id/valeAlimentacao"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:text="Possuo"
+        android:id="@+id/valeAlimentacaoSim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textColor="@color/black"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+    />
+    <RadioButton
+        android:text="Não possuo"
+        android:id="@+id/valeAlimentacaoNao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        /> </RadioGroup>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="Possue vale Refeição?"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        />
+    <RadioGroup
+        android:id="@+id/valeRefeicao"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <RadioButton
+        android:text="Possuo"
+        android:id="@+id/valeRefeicaoSim"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+    <RadioButton
+        android:text="Não possuo"
+        android:id="@+id/valeRefeicaoNao"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="cursive"
+        android:textSize="27dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+
+        ></RadioButton>
+    </RadioGroup>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/calcular"
+        android:text="Resultado"
+        android:fontFamily="cursive"
+        android:textSize="20dp"
+        android:padding="10dp"
+        android:textStyle="bold"
+        />
+    </LinearLayout>
+</ScrollView>
